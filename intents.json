@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "hello",
+                "good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Peace",
+                "Have a great day",
+                "bye",
+                "See you"
+            ],
+            "responses": [
+                "Have a wonderful day!",
+                "Sad to see you say goodbye :(",
+                "Talk to you soon",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name?",
+                "What should I call you?",
+                "Whats your name?",
+                "Who are you?"
+            ],
+            "responses": [
+                "You can call me NeuroLine, the assistant for Matt young media",
+                "I am NeuroLine the assistant for Matt young media",
+                "I'm NeuroLine"
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "When are you open?",
+                "What are your hours?",
+                "Hours of operations?",
+                "When do you close?"
+            ],
+            "responses": [
+                "24/7",
+                "I am an assistant for Matt young media, I am at your service 24/7!"
+            ]
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "What products do you sell?",
+                "What are your services?",
+                "What do you recomment?",
+                "I'd like to buy something?"
+            ],
+            "responses": [
+                "At Matt yound media our easy 3 step process will generate your agency leads: Step 1 : Get a client Step 2 : Contact us Step 3: We onboard you clients"
+            ]
+        },
+        {
+            "tag": "testomonials",
+            "patterns": [
+                "How can I trust your service?",
+                "Provide for me results you guys have generated?",
+                "Provide for me testomonials with your clients?"
+            ],
+            "responses": [
+                "The first week of using MYM we generated 34 leads, qualified 6 and sent two to my lender for pre-approval. I'd say it works! —  Justin L, NY",
+                "If you want to double your GCI, hire Matt Young & his team. They don't just generate leads. They generate commissions. —  Mark G, CA",
+                "We used to spend 15k per month on Zillow alone. Matt confidently assured us that we could generate similar results for 1/2 of my Zillow budget. That was 12 months ago and we still use Matt Young Media. —  William L., AZ"
+            ]
+        }
+    ]
+}
